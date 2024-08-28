@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaeef2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2c3e50;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.file-actions {
+    margin-bottom: 20px;
+}
+
+.file-section {
+    margin-bottom: 20px;
+}
+
+.custom-file-input {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.custom-file-input:hover {
+    background-color: #1c5987;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.buttons-section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 48%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #2ecc71;
+}
+
+.info-section {
+    margin-top: 20px;
+}
+
+#compressionInfo {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+    color: #c0392b;
+}
+
+.codes-box {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 14px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
